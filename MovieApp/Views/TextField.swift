@@ -36,6 +36,35 @@ class TextField: UITextField {
             return layer.cornerRadius
         }
     }
+
+    @IBInspectable
+    var isSecure:Bool {
+        set {
+            isSecureTextEntry = newValue
+            if newValue {
+
+                let view = UIView(frame: CGRect(x: 0, y: 0, width: 56, height: 24))
+                let button = UIButton(frame: CGRect(x: 16, y: 0, width: 24, height: 24))
+                button.setImage(UIImage(named: "eye"), for: .normal)
+                button.addTarget(self, action: #selector(togglePasswordVisibility), for: .touchUpInside)
+                view.addSubview(button)
+                rightView = view
+                rightViewMode = .always
+                
+                
+            }
+        }
+        get {
+            return isSecureTextEntry
+        }
+    }
+
+    @objc func togglePasswordVisibility() {
+        isSecureTextEntry.toggle()
+        if let button = self.rightView?.subviews.first as? UIButton {
+            button.setImage(UIImage(named: isSecureTextEntry ? "eye" : "home" ), for: .normal)
+        }
+    }
     
     
 }
