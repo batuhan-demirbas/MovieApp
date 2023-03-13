@@ -48,9 +48,12 @@ class OnboardingViewController: UIViewController {
     
     func settingsPageControl() {
         if pageControl.currentPage == pageControl.numberOfPages - 1 {
-            let signUpVC = SignUpViewController()
-            signUpVC.modalPresentationStyle = .fullScreen
-            self.present(signUpVC, animated: true)
+            
+            if let signUpVC = storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as? SignUpViewController {
+                signUpVC.modalPresentationStyle = .fullScreen
+                present(signUpVC, animated: true, completion: nil)
+            }
+            
         } else {
             
             pageControl.setIndicatorImage(UIImage(named: "currentPageIndicator"), forPage: pageControl.currentPage + 1)
