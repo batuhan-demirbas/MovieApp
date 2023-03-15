@@ -51,7 +51,6 @@ class TextField: UITextField {
                 rightView = view
                 rightViewMode = .always
                 
-                
             }
         }
         get {

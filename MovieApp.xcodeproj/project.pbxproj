@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		76A0DB50F8699A6756754D1F /* Pods_MovieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445A39ECD6C767F595DA2741 /* Pods_MovieApp.framework */; };
 		D50157DD29B687E100DFF99F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50157DB29B687E100DFF99F /* SignUpViewController.swift */; };
+		D50B79D429C06055003794C6 /* NowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B79D229C06055003794C6 /* NowCollectionViewCell.swift */; };
+		D50B79D529C06055003794C6 /* NowCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50B79D329C06055003794C6 /* NowCollectionViewCell.xib */; };
+		D50B79DA29C06A30003794C6 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B79D829C06A30003794C6 /* PopularCollectionViewCell.swift */; };
+		D50B79DB29C06A30003794C6 /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50B79D929C06A30003794C6 /* PopularCollectionViewCell.xib */; };
 		D513978F29AE42400055D99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513978E29AE42400055D99C /* AppDelegate.swift */; };
 		D513979129AE42400055D99C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513979029AE42400055D99C /* SceneDelegate.swift */; };
 		D513979329AE42400055D99C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513979229AE42400055D99C /* HomeViewController.swift */; };
@@ -41,6 +45,10 @@
 		3B05F35978246580C1D5A43F /* Pods-MovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.debug.xcconfig"; sourceTree = "<group>"; };
 		445A39ECD6C767F595DA2741 /* Pods_MovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50157DB29B687E100DFF99F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D50B79D229C06055003794C6 /* NowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowCollectionViewCell.swift; sourceTree = "<group>"; };
+		D50B79D329C06055003794C6 /* NowCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowCollectionViewCell.xib; sourceTree = "<group>"; };
+		D50B79D829C06A30003794C6 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		D50B79D929C06A30003794C6 /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
 		D513978B29AE42400055D99C /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D513978E29AE42400055D99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D513979029AE42400055D99C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +124,24 @@
 			);
 			name = Login;
 			path = "lOGİN";
+			sourceTree = "<group>";
+		};
+		D50B79D629C06058003794C6 /* NowCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D50B79D329C06055003794C6 /* NowCollectionViewCell.xib */,
+				D50B79D229C06055003794C6 /* NowCollectionViewCell.swift */,
+			);
+			path = NowCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		D50B79D729C06A0E003794C6 /* PopularCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D50B79D929C06A30003794C6 /* PopularCollectionViewCell.xib */,
+				D50B79D829C06A30003794C6 /* PopularCollectionViewCell.swift */,
+			);
+			path = PopularCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		D50D40D229BB3ED8003E9D45 /* Views */ = {
@@ -238,6 +264,8 @@
 		D51397AD29AE49BD0055D99C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D50B79D729C06A0E003794C6 /* PopularCollectionViewCell */,
+				D50B79D629C06058003794C6 /* NowCollectionViewCell */,
 				D513979229AE42400055D99C /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -328,12 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5E86A6129B2978200B4331D /* Poppins-ExtraLight.ttf in Resources */,
+				D50B79D529C06055003794C6 /* NowCollectionViewCell.xib in Resources */,
 				D513979B29AE42410055D99C /* LaunchScreen.storyboard in Resources */,
 				D5E86A5F29B2978200B4331D /* Poppins-Light.ttf in Resources */,
 				D5E86A5E29B2978200B4331D /* Poppins-ExtraBold.ttf in Resources */,
 				D5E86A5C29B2978200B4331D /* Poppins-Medium.ttf in Resources */,
 				D5E86A5929B2978200B4331D /* Poppins-SemiBold.ttf in Resources */,
 				D5E86A5D29B2978200B4331D /* Poppins-Bold.ttf in Resources */,
+				D50B79DB29C06A30003794C6 /* PopularCollectionViewCell.xib in Resources */,
 				D5AB4B5729B9CBED00800909 /* Icons.xcassets in Resources */,
 				D513979829AE42410055D99C /* Assets.xcassets in Resources */,
 				D5E86A5B29B2978200B4331D /* Poppins-Regular.ttf in Resources */,
@@ -398,12 +428,14 @@
 				D5F0BD0229B79EEA00B42A5A /* UITextField+Extention.swift in Sources */,
 				D52F6CA129B324E500679055 /* UIPageControl+Extension.swift in Sources */,
 				D57E02D929BB4AEC00A87003 /* TextField.swift in Sources */,
+				D50B79D429C06055003794C6 /* NowCollectionViewCell.swift in Sources */,
 				D57E02DB29BB629F00A87003 /* Checkbox.swift in Sources */,
 				D513979329AE42400055D99C /* HomeViewController.swift in Sources */,
 				D57E02DD29BC69BF00A87003 /* Button.swift in Sources */,
 				D57E02DF29BC6B6300A87003 /* NowPlaying.swift in Sources */,
 				D5FD102729B7A2780077B276 /* LoginViewController.swift in Sources */,
 				D513978F29AE42400055D99C /* AppDelegate.swift in Sources */,
+				D50B79DA29C06A30003794C6 /* PopularCollectionViewCell.swift in Sources */,
 				D513979129AE42400055D99C /* SceneDelegate.swift in Sources */,
 				D595907729B2A25200DE383E /* OnboardingViewController.swift in Sources */,
 			);
