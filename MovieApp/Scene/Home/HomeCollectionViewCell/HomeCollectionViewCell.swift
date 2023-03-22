@@ -93,6 +93,7 @@ extension HomeCollectionViewCell: UICollectionViewDataSource {
                 detailVC.modalPresentationStyle = .fullScreen
                 detailVC.movieId = movieId
                 self.window?.rootViewController?.present(detailVC, animated: true, completion: nil)
+                
             }
             
 

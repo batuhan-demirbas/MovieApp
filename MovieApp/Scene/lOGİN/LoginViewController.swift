@@ -35,7 +35,12 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "showHome", sender: nil)
+        if let tabBarVC = storyboard?.instantiateViewController(withIdentifier: "tabBarController") as? TabBarController {
+            tabBarVC.modalPresentationStyle = .fullScreen
+            presentedViewController?.dismiss(animated: false)
+            present(tabBarVC, animated: true, completion: nil)
+            
+        }
         
     }
     

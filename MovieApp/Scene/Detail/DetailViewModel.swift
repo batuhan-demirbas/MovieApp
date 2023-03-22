@@ -26,4 +26,38 @@ class DetailViewModel {
         })
     }
     
+    func configureInfoLabel(releaseDate: String, runtime: Int) -> String{
+        let country = movie?.productionCountries?.first?.iso3166_1 ?? ""
+        let infoLabel = releaseYear(date: releaseDate) + " · " + runtimeFormat(runtime: runtime) + " · " +  country
+        if movie?.adult ?? false {
+            return infoLabel + " · +18"
+        } else {
+            return infoLabel
+        }
+    }
+    
+    func runtimeFormat(runtime: Int) -> String{
+        let formatter = DateComponentsFormatter()
+        formatter.allowedUnits = [.hour, .minute]
+        formatter.unitsStyle = .abbreviated
+        formatter.zeroFormattingBehavior = .pad
+        
+        if let formattedString = formatter.string(from: TimeInterval(runtime * 60)) {
+            return formattedString
+        }
+        return ""
+    }
+    
+    func releaseYear(date: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        if let date = dateFormatter.date(from: date) {
+            let calendar = Calendar.current
+            let year = calendar.component(.year, from: date)
+            return String(year)
+        }
+        return ""
+    }
+    
 }

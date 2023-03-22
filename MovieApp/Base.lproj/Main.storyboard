@@ -471,7 +471,6 @@ experience the magic of movies in a whole new way.</string>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="loginButtonTapped:" destination="1Zl-8F-xdS" eventType="touchUpInside" id="6YP-I7-pyi"/>
-                                            <segue destination="pjK-Xi-QUW" kind="presentation" identifier="showHome" modalPresentationStyle="fullScreen" id="KTG-hc-hYY"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9m-YY-vne">
@@ -863,16 +862,16 @@ experience the magic of movies in a whole new way.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="3Ow-wq-oCd">
-                                <rect key="frame" x="20" y="71" width="350" height="322.33333333333331"/>
+                                <rect key="frame" x="20" y="71" width="350" height="340"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Dx-8z-6pZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="53.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="64.666666666666671"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="buM-bR-9eL">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="25.666666666666668"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="31"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBa-OQ-st0">
-                                                        <rect key="frame" x="0.0" y="1" width="24" height="24"/>
+                                                        <rect key="frame" x="0.0" y="3.6666666666666714" width="24" height="24"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="24" id="C2H-MD-gnR"/>
                                                             <constraint firstAttribute="width" secondItem="ZBa-OQ-st0" secondAttribute="height" multiplier="1:1" id="WQ5-3O-pPT"/>
@@ -886,7 +885,7 @@ experience the magic of movies in a whole new way.</string>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create New Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsJ-O8-O67">
-                                                        <rect key="frame" x="32" y="0.0" width="318" height="25.666666666666668"/>
+                                                        <rect key="frame" x="32" y="0.0" width="318" height="31"/>
                                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="22"/>
                                                         <color key="textColor" name="TextColor"/>
                                                         <nil key="highlightedColor"/>
@@ -894,7 +893,7 @@ experience the magic of movies in a whole new way.</string>
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you want to ask the user to enter their email address for the code to be sent." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKd-Rn-1TH">
-                                                <rect key="frame" x="0.0" y="25.666666666666671" width="350" height="28"/>
+                                                <rect key="frame" x="0.0" y="30.999999999999996" width="350" height="33.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="12"/>
                                                 <color key="textColor" name="TextColor 2"/>
                                                 <nil key="highlightedColor"/>
@@ -902,19 +901,19 @@ experience the magic of movies in a whole new way.</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="XIh-iz-uyv">
-                                        <rect key="frame" x="0.0" y="77.666666666666671" width="350" height="168.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="88.666666666666643" width="350" height="175.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cLk-FE-bkj">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="76.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="79.666666666666671"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdM-5K-Fsh">
-                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="16.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="19.666666666666668"/>
                                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
                                                         <color key="textColor" name="TextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Osj-bX-J7D" customClass="TextField" customModule="MovieApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="24.333333333333343" width="350" height="52"/>
+                                                        <rect key="frame" x="0.0" y="27.666666666666686" width="350" height="52"/>
                                                         <color key="backgroundColor" name="Background"/>
                                                         <color key="tintColor" name="primary.400"/>
                                                         <constraints>
@@ -934,16 +933,16 @@ experience the magic of movies in a whole new way.</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="U3g-0Z-dYX">
-                                                <rect key="frame" x="0.0" y="92.333333333333343" width="350" height="76.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="95.666666666666686" width="350" height="79.666666666666686"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b33-4n-wZx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="16.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="19.666666666666668"/>
                                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
                                                         <color key="textColor" name="TextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OyT-QL-r4z" customClass="TextField" customModule="MovieApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="24.333333333333314" width="350" height="52"/>
+                                                        <rect key="frame" x="0.0" y="27.666666666666657" width="350" height="52"/>
                                                         <color key="backgroundColor" name="Background"/>
                                                         <color key="tintColor" name="primary.400"/>
                                                         <constraints>
@@ -965,7 +964,7 @@ experience the magic of movies in a whole new way.</string>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5v-si-BB1">
-                                        <rect key="frame" x="0.0" y="270.33333333333331" width="350" height="52"/>
+                                        <rect key="frame" x="0.0" y="288" width="350" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="wPo-ig-M0z"/>
                                         </constraints>
@@ -1038,7 +1037,7 @@ experience the magic of movies in a whole new way.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mll-O4-Bff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6386" y="-746"/>
+            <point key="canvasLocation" x="5725" y="-746"/>
         </scene>
         <!--Discover-->
         <scene sceneID="FFb-ud-DAw">
@@ -1055,7 +1054,7 @@ experience the magic of movies in a whole new way.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bSs-tE-Yu2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6385" y="-2"/>
+            <point key="canvasLocation" x="5726" y="-1"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mo7-7w-ga1">
@@ -1071,7 +1070,7 @@ experience the magic of movies in a whole new way.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJZ-wh-dhh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6385" y="943"/>
+            <point key="canvasLocation" x="5726" y="943"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="9cu-eK-lmf">
@@ -1081,135 +1080,74 @@ experience the magic of movies in a whole new way.</string>
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="encanto" translatesAutoresizingMaskIntoConstraints="NO" id="7en-cJ-hSx">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="473.33333333333331"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="7en-cJ-hSx" secondAttribute="height" multiplier="375:455" id="J3p-tp-eVT"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftb-eW-8eo">
-                                <rect key="frame" x="20" y="49" width="52" height="52"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="l7K-sf-ARH"/>
-                                    <constraint firstAttribute="width" constant="52" id="vhQ-Oc-7xk"/>
-                                </constraints>
-                                <color key="tintColor" red="0.3803921569" green="0.23921568630000001" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="ic_arrowRight">
-                                    <backgroundConfiguration key="background" cornerRadius="15"/>
-                                    <color key="baseBackgroundColor" name="primary.400"/>
-                                </buttonConfiguration>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" contentInsetAdjustmentBehavior="never" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ecl-RV-tAe">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="810"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
-                                    <action selector="backButtonTapped:" destination="drN-Hy-Jak" eventType="touchUpInside" id="hF6-xc-5BF"/>
-                                    <action selector="tapButtonWithSender:" destination="Fhd-nB-zn0" eventType="touchUpInside" id="EPB-Dp-ypf"/>
+                                    <outlet property="dataSource" destination="drN-Hy-Jak" id="9b5-Ik-Z11"/>
+                                    <outlet property="delegate" destination="drN-Hy-Jak" id="T2Z-TV-WWi"/>
                                 </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="yoO-vt-K3K">
-                                <rect key="frame" x="20" y="443.33333333333326" width="350" height="242"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xTB-WV-slg">
+                                <rect key="frame" x="0.0" y="47" width="390" height="75"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="094-Cl-pjK">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="75"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="gec-zR-SNc">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="46.666666666666664"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RZP-uM-2Dt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="326" height="46.666666666666664"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encanto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rl8-kE-YfN">
-                                                                <rect key="frame" x="0.0" y="0.0" width="326" height="24"/>
-                                                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="17"/>
-                                                                <color key="textColor" name="TextColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At The Holywood Bowl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3v-vR-vQc">
-                                                                <rect key="frame" x="0.0" y="24" width="326" height="22.666666666666671"/>
-                                                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
-                                                                <color key="textColor" name="TextColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                    </stackView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QDY-cd-H5r">
-                                                        <rect key="frame" x="326" y="1.9999999999999982" width="24" height="21"/>
-                                                        <color key="tintColor" name="TextColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="24" id="AVe-h1-Fgr"/>
-                                                            <constraint firstAttribute="height" constant="24" id="fuE-10-o9j"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="no1-k1-me7">
-                                                <rect key="frame" x="0.0" y="54.666666666666693" width="350" height="20.333333333333336"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4R-nq-fMA">
-                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="20.333333333333332"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" name="TextColor 2"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lon-ji-8mJ">
-                                        <rect key="frame" x="0.0" y="91.000000000000057" width="350" height="77"/>
-                                        <string key="text">A taped performance of the Encanto Live-to-Film Concert Experience at the Hollywood Bowl. The original cast puts on a miracle of a concert as they sing the favorite songs, accompanied by a full orchestra and 50 person ensemble, and the Hollywood Bowl transforms into Casita!</string>
-                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="11"/>
-                                        <color key="textColor" name="TextColor 2"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QMO-G8-g42">
-                                        <rect key="frame" x="0.0" y="184.00000000000006" width="350" height="25"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backdrop" translatesAutoresizingMaskIntoConstraints="NO" id="sj1-En-716">
+                                        <rect key="frame" x="0.0" y="-75" width="390" height="150"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VA-Sm-QDl">
+                                        <rect key="frame" x="20" y="15" width="44" height="44"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="25" id="CGA-l6-e4e"/>
+                                            <constraint firstAttribute="width" constant="44" id="1Ep-wQ-eWi"/>
+                                            <constraint firstAttribute="height" constant="44" id="Bhn-Zs-NAz"/>
                                         </constraints>
-                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2fd-xC-AcM">
-                                            <size key="itemSize" width="128" height="128"/>
-                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        </collectionViewFlowLayout>
-                                        <cells/>
-                                    </collectionView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Director: Chris Howe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqC-So-D9t">
-                                        <rect key="frame" x="0.0" y="225.00000000000006" width="350" height="17"/>
-                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="12"/>
-                                        <color key="textColor" name="TextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <color key="tintColor" red="0.3803921569" green="0.23921568630000001" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="ic_arrowRight">
+                                            <backgroundConfiguration key="background" cornerRadius="15"/>
+                                            <color key="baseBackgroundColor" name="primary.400"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="backButtonTapped:" destination="drN-Hy-Jak" eventType="touchUpInside" id="5fb-G1-0iv"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                            </stackView>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4VA-Sm-QDl" secondAttribute="bottom" constant="16" id="QcN-nf-wNK"/>
+                                    <constraint firstAttribute="bottom" secondItem="sj1-En-716" secondAttribute="bottom" id="TG9-DQ-gV3"/>
+                                    <constraint firstItem="4VA-Sm-QDl" firstAttribute="leading" secondItem="xTB-WV-slg" secondAttribute="leading" constant="20" id="WC3-LN-X0s"/>
+                                    <constraint firstAttribute="height" constant="75" id="cz6-z5-CPt"/>
+                                    <constraint firstItem="sj1-En-716" firstAttribute="leading" secondItem="xTB-WV-slg" secondAttribute="leading" id="fs9-YJ-xZm"/>
+                                    <constraint firstAttribute="trailing" secondItem="sj1-En-716" secondAttribute="trailing" id="tgY-QF-oSY"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XDs-gw-RLl"/>
                         <color key="backgroundColor" name="primary.900"/>
                         <constraints>
-                            <constraint firstItem="yoO-vt-K3K" firstAttribute="leading" secondItem="XDs-gw-RLl" secondAttribute="leading" constant="20" id="AVj-Al-EUM"/>
-                            <constraint firstItem="yoO-vt-K3K" firstAttribute="top" secondItem="7en-cJ-hSx" secondAttribute="bottom" constant="-30" id="GbG-6j-b4T"/>
-                            <constraint firstItem="XDs-gw-RLl" firstAttribute="trailing" secondItem="7en-cJ-hSx" secondAttribute="trailing" id="I3c-Y6-VRH"/>
-                            <constraint firstItem="XDs-gw-RLl" firstAttribute="trailing" secondItem="yoO-vt-K3K" secondAttribute="trailing" constant="20" id="Wa1-mm-GGG"/>
-                            <constraint firstItem="7en-cJ-hSx" firstAttribute="top" secondItem="AWg-h9-oUr" secondAttribute="top" id="YfW-Pu-Dgr"/>
-                            <constraint firstItem="Ftb-eW-8eo" firstAttribute="top" secondItem="XDs-gw-RLl" secondAttribute="top" constant="2" id="bK7-Jq-MCP"/>
-                            <constraint firstItem="Ftb-eW-8eo" firstAttribute="leading" secondItem="XDs-gw-RLl" secondAttribute="leading" constant="20" id="hdR-B1-BCY"/>
-                            <constraint firstItem="7en-cJ-hSx" firstAttribute="leading" secondItem="XDs-gw-RLl" secondAttribute="leading" id="keh-re-5KL"/>
+                            <constraint firstItem="ecl-RV-tAe" firstAttribute="top" secondItem="AWg-h9-oUr" secondAttribute="top" id="60g-qa-9dE"/>
+                            <constraint firstItem="XDs-gw-RLl" firstAttribute="trailing" secondItem="xTB-WV-slg" secondAttribute="trailing" id="JjP-p7-ZWn"/>
+                            <constraint firstItem="XDs-gw-RLl" firstAttribute="trailing" secondItem="ecl-RV-tAe" secondAttribute="trailing" id="KTK-lP-zZ0"/>
+                            <constraint firstItem="ecl-RV-tAe" firstAttribute="leading" secondItem="XDs-gw-RLl" secondAttribute="leading" id="PDB-9P-J3c"/>
+                            <constraint firstItem="XDs-gw-RLl" firstAttribute="bottom" secondItem="ecl-RV-tAe" secondAttribute="bottom" id="eZV-Hl-3rP"/>
+                            <constraint firstItem="xTB-WV-slg" firstAttribute="leading" secondItem="XDs-gw-RLl" secondAttribute="leading" id="rLt-XC-NVg"/>
+                            <constraint firstItem="xTB-WV-slg" firstAttribute="top" secondItem="XDs-gw-RLl" secondAttribute="top" id="tFz-d6-RiE"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Nvx-8B-jDA"/>
                     <connections>
-                        <outlet property="backgroundImageView" destination="7en-cJ-hSx" id="2Tv-8p-Wt9"/>
-                        <outlet property="overview" destination="lon-ji-8mJ" id="DwL-5L-8wi"/>
-                        <outlet property="titleLabel" destination="rl8-kE-YfN" id="xLw-E7-wsK"/>
+                        <outlet property="headerImageView" destination="sj1-En-716" id="F10-Pt-KSe"/>
+                        <outlet property="headerView" destination="xTB-WV-slg" id="PMK-lf-EJD"/>
+                        <outlet property="tableView" destination="ecl-RV-tAe" id="HOS-P3-K2B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gel-xn-gM2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3574" y="1831"/>
+            <point key="canvasLocation" x="7426" y="-1"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0el-Sz-u54">
             <objects>
-                <tabBarController id="pjK-Xi-QUW" customClass="TabBarController" customModule="MovieApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBarController" id="pjK-Xi-QUW" customClass="TabBarController" customModule="MovieApp" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="nMs-ES-clX"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="zkm-nZ-tWi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
@@ -1280,11 +1218,10 @@ experience the magic of movies in a whole new way.</string>
     <resources>
         <image name="Apple" width="24.333333969116211" height="24"/>
         <image name="Google" width="24.333333969116211" height="24"/>
+        <image name="backdrop" width="335" height="150"/>
         <image name="checkbox" width="24" height="24"/>
         <image name="checkbox.filled" width="24" height="24"/>
         <image name="discover" width="24" height="24"/>
-        <image name="encanto" width="375" height="455"/>
-        <image name="heart" catalog="system" width="128" height="107"/>
         <image name="home" width="24" height="24"/>
         <image name="ic_arrowRight" width="24" height="24"/>
         <image name="onboarding.1" width="375" height="812"/>
