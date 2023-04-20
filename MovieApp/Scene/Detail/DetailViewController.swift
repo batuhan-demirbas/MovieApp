@@ -14,7 +14,6 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var headerImageView: UIImageView!
     
-    
     let viewModel = DetailViewModel()
     var movie: MovieDetail?
     var movieId: Int?
@@ -47,6 +46,18 @@ class DetailViewController: UIViewController {
                 self.headerImageView.addGradient(height: self.headerImageView.frame.height, width: self.headerImageView.frame.width, color: UIColor(named: "primary.900")!)
             }
             self.tableView.reloadData()
+            viewModelCreditsConfiguration()
+            
+        }
+    }
+    
+    fileprivate func viewModelCreditsConfiguration() {
+        viewModel.getCreditsData(movieId: movieId ?? 0)
+        viewModel.errorCallback = { [weak self] errorMessage in
+            print("error: \(errorMessage)")
+        }
+        viewModel.succesCallback = { [self] in
+            self.tableView.reloadData()
         }
     }
     
@@ -63,16 +74,8 @@ extension DetailViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "\(DetailTableViewCell.self)", for: indexPath) as! DetailTableViewCell
-        
-        if let path = movie?.posterPath {
-            let url = URL(string: "https://image.tmdb.org/t/p/w500\(path)")
-            cell.poster.kf.setImage(with: url)
-            cell.poster.addGradient(height: cell.poster.frame.height, width: cell.poster.frame.width, color: UIColor(named: "primary.900")!)
-        }
-        cell.title.text = movie?.title
-        cell.overview.text = movie?.overview
-        cell.info.text = self.viewModel.configureInfoLabel(releaseDate: movie?.releaseDate ?? "", runtime: movie?.runtime ?? 0)
-        cell.ratingCount.text = "\(movie?.voteCount ?? 0) ratings"
+        cell.movie = viewModel.movie
+        cell.credits = viewModel.credits
         return cell
     }
     

@@ -11,6 +11,7 @@ class DetailViewModel {
     let manager = DetailManager.shared
     
     var movie: MovieDetail?
+    var credits: Credits?
     var errorCallback: ((String)->())?
     var succesCallback: (()->())?
     
@@ -21,6 +22,18 @@ class DetailViewModel {
                 self.errorCallback?(error.localizedDescription)
             } else {
                 self.movie = movie
+                self.succesCallback?()
+            }
+        })
+    }
+    
+    func getCreditsData(movieId: Int) {
+        manager.getCredits(movieId: movieId, complete: { [weak self] credits, error in
+            guard let self = self else { return }
+            if let error = error {
+                self.errorCallback?(error.localizedDescription)
+            } else {
+                self.credits = credits
                 self.succesCallback?()
             }
         })

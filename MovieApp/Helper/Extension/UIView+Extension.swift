@@ -2,7 +2,7 @@
 //  UIView+Extention.swift
 //  MovieApp
 //
-//  Created by Batuhan on 21.03.2023.
+//  Created by Batuhan Demirbaş on 21.03.2023.
 //
 
 import UIKit
@@ -32,20 +32,9 @@ extension UIView {
         ]
         
         layer1.locations = [0, 1]
-        
         layer1.startPoint = CGPoint(x: 0, y: 0)
-
         layer1.endPoint = CGPoint(x: 0, y: 1)
-//        layer1.startPoint = CGPoint(x: 0.15, y: 0.05)
-//
-//        layer1.endPoint = CGPoint(x: 1, y: 0.05)
-        
-        //layer1.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 0, b: 0.36, c: -0.36, d: 0, tx: 0.68, ty: 0.4))
-        
-        // layer1.bounds = bounds.insetBy(dx: -0.5*bounds.size.width, dy: -0.5*bounds.size.height)
-        
         layer1.frame = CGRect(origin: CGPoint(x: -1, y: -1), size: CGSize(width: width + 2, height: height + 2))
-        // layer1.position = center
         
         if index != nil {
             layer.insertSublayer(layer1, at: UInt32(index!))

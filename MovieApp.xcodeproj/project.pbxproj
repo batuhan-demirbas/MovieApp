@@ -20,6 +20,8 @@
 		D50B79D529C06055003794C6 /* NowCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50B79D329C06055003794C6 /* NowCollectionViewCell.xib */; };
 		D50B79DA29C06A30003794C6 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B79D829C06A30003794C6 /* PopularCollectionViewCell.swift */; };
 		D50B79DB29C06A30003794C6 /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50B79D929C06A30003794C6 /* PopularCollectionViewCell.xib */; };
+		D50FD3B429E0C241004BA14F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D50FD3B329E0C241004BA14F /* Kingfisher */; };
+		D50FD3B729E0C26C004BA14F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D50FD3B629E0C26C004BA14F /* Alamofire */; };
 		D513978F29AE42400055D99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513978E29AE42400055D99C /* AppDelegate.swift */; };
 		D513979129AE42400055D99C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513979029AE42400055D99C /* SceneDelegate.swift */; };
 		D513979329AE42400055D99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513979229AE42400055D99C /* ViewController.swift */; };
@@ -31,6 +33,9 @@
 		D51F60DA29C77B5B006C1E05 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51F60D929C77B5B006C1E05 /* MovieDetail.swift */; };
 		D51F60DD29C77CB1006C1E05 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51F60DC29C77CB1006C1E05 /* DetailViewModel.swift */; };
 		D52F6CA129B324E500679055 /* UIPageControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F6CA029B324E500679055 /* UIPageControl+Extension.swift */; };
+		D532D03329CB8D7700ADF090 /* GenreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532D03129CB8D7700ADF090 /* GenreCollectionViewCell.swift */; };
+		D532D03429CB8D7700ADF090 /* GenreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D532D03229CB8D7700ADF090 /* GenreCollectionViewCell.xib */; };
+		D532D03629CB9C5100ADF090 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532D03529CB9C5100ADF090 /* Credits.swift */; };
 		D5423A0A29C303AB008DDB7D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5423A0929C303AB008DDB7D /* ForgotPasswordViewController.swift */; };
 		D5423A0E29C31050008DDB7D /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5423A0D29C31050008DDB7D /* VerificationViewController.swift */; };
 		D5423A1129C345F0008DDB7D /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5423A1029C345F0008DDB7D /* CreatePasswordViewController.swift */; };
@@ -56,6 +61,8 @@
 		D5E86A5F29B2978200B4331D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E86A5629B2978200B4331D /* Poppins-Light.ttf */; };
 		D5E86A6029B2978200B4331D /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E86A5729B2978200B4331D /* Poppins-Thin.ttf */; };
 		D5E86A6129B2978200B4331D /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5E86A5829B2978200B4331D /* Poppins-ExtraLight.ttf */; };
+		D5EFA01D29CC5691004CB1DD /* SimilarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFA01B29CC5691004CB1DD /* SimilarCollectionViewCell.swift */; };
+		D5EFA01E29CC5691004CB1DD /* SimilarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EFA01C29CC5691004CB1DD /* SimilarCollectionViewCell.xib */; };
 		D5F0BD0229B79EEA00B42A5A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0BD0129B79EEA00B42A5A /* UITextField+Extension.swift */; };
 		D5F1292729C89E5500FD7B3B /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1292529C89E5500FD7B3B /* DetailTableViewCell.swift */; };
 		D5F1292829C89E5500FD7B3B /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F1292629C89E5500FD7B3B /* DetailTableViewCell.xib */; };
@@ -90,6 +97,9 @@
 		D51F60D929C77B5B006C1E05 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		D51F60DC29C77CB1006C1E05 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		D52F6CA029B324E500679055 /* UIPageControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Extension.swift"; sourceTree = "<group>"; };
+		D532D03129CB8D7700ADF090 /* GenreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionViewCell.swift; sourceTree = "<group>"; };
+		D532D03229CB8D7700ADF090 /* GenreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenreCollectionViewCell.xib; sourceTree = "<group>"; };
+		D532D03529CB9C5100ADF090 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
 		D5423A0929C303AB008DDB7D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		D5423A0D29C31050008DDB7D /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		D5423A1029C345F0008DDB7D /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +125,8 @@
 		D5E86A5629B2978200B4331D /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		D5E86A5729B2978200B4331D /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.ttf"; path = "../../../../../../Downloads/Poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		D5E86A5829B2978200B4331D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.ttf"; path = "../../../../../../Downloads/Poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D5EFA01B29CC5691004CB1DD /* SimilarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5EFA01C29CC5691004CB1DD /* SimilarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimilarCollectionViewCell.xib; sourceTree = "<group>"; };
 		D5F0BD0129B79EEA00B42A5A /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		D5F1292529C89E5500FD7B3B /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		D5F1292629C89E5500FD7B3B /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
@@ -127,6 +139,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50FD3B729E0C26C004BA14F /* Alamofire in Frameworks */,
+				D50FD3B429E0C241004BA14F /* Kingfisher in Frameworks */,
 				76A0DB50F8699A6756754D1F /* Pods_MovieApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +311,12 @@
 		D51397A529AE42CE0055D99C /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				D51397A629AE42D30055D99C /* Extensions */,
+				D51397A629AE42D30055D99C /* Extension */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		D51397A629AE42D30055D99C /* Extensions */ = {
+		D51397A629AE42D30055D99C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				D52F6CA029B324E500679055 /* UIPageControl+Extension.swift */,
@@ -310,7 +324,7 @@
 				D5423A1229C350D1008DDB7D /* UIImageView+Extension.swift */,
 				D5B08B1629C9F2C900D42617 /* UIView+Extension.swift */,
 			);
-			path = Extensions;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		D51397A729AE43130055D99C /* Resource */ = {
@@ -327,8 +341,8 @@
 		D51397AB29AE44060055D99C /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				D51F60D429C779CC006C1E05 /* Detail */,
 				D504CDEB29C7484F00EE10AE /* Core */,
+				D51F60D429C779CC006C1E05 /* Detail */,
 				D504CDEC29C7486400EE10AE /* Home */,
 			);
 			path = Network;
@@ -358,6 +372,7 @@
 			children = (
 				D57E02DE29BC6B6300A87003 /* Movie.swift */,
 				D51F60D929C77B5B006C1E05 /* MovieDetail.swift */,
+				D532D03529CB9C5100ADF090 /* Credits.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -379,6 +394,15 @@
 				D51F60DC29C77CB1006C1E05 /* DetailViewModel.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		D532D03029CB8D6200ADF090 /* GenreCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D532D03129CB8D7700ADF090 /* GenreCollectionViewCell.swift */,
+				D532D03229CB8D7700ADF090 /* GenreCollectionViewCell.xib */,
+			);
+			path = GenreCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		D5423A0B29C303B0008DDB7D /* ForgotPassword */ = {
@@ -421,9 +445,20 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		D5EFA01A29CC567C004CB1DD /* SimilarCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFA01B29CC5691004CB1DD /* SimilarCollectionViewCell.swift */,
+				D5EFA01C29CC5691004CB1DD /* SimilarCollectionViewCell.xib */,
+			);
+			path = SimilarCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		D5F1292429C89E1300FD7B3B /* DetailTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				D5EFA01A29CC567C004CB1DD /* SimilarCollectionViewCell */,
+				D532D03029CB8D6200ADF090 /* GenreCollectionViewCell */,
 				D5F1292529C89E5500FD7B3B /* DetailTableViewCell.swift */,
 				D5F1292629C89E5500FD7B3B /* DetailTableViewCell.xib */,
 			);
@@ -448,6 +483,10 @@
 			dependencies = (
 			);
 			name = MovieApp;
+			packageProductDependencies = (
+				D50FD3B329E0C241004BA14F /* Kingfisher */,
+				D50FD3B629E0C26C004BA14F /* Alamofire */,
+			);
 			productName = MovieApp;
 			productReference = D513978B29AE42400055D99C /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
@@ -476,6 +515,10 @@
 				Base,
 			);
 			mainGroup = D513978229AE42400055D99C;
+			packageReferences = (
+				D50FD3B229E0C241004BA14F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D50FD3B529E0C26C004BA14F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = D513978C29AE42400055D99C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -498,7 +541,9 @@
 				D5E86A5E29B2978200B4331D /* Poppins-ExtraBold.ttf in Resources */,
 				D5E86A5C29B2978200B4331D /* Poppins-Medium.ttf in Resources */,
 				D5E86A5929B2978200B4331D /* Poppins-SemiBold.ttf in Resources */,
+				D532D03429CB8D7700ADF090 /* GenreCollectionViewCell.xib in Resources */,
 				D5E86A5D29B2978200B4331D /* Poppins-Bold.ttf in Resources */,
+				D5EFA01E29CC5691004CB1DD /* SimilarCollectionViewCell.xib in Resources */,
 				D50B79DB29C06A30003794C6 /* PopularCollectionViewCell.xib in Resources */,
 				D5F1292829C89E5500FD7B3B /* DetailTableViewCell.xib in Resources */,
 				D5AB4B5729B9CBED00800909 /* Icons.xcassets in Resources */,
@@ -567,6 +612,7 @@
 				D5F0BD0229B79EEA00B42A5A /* UITextField+Extension.swift in Sources */,
 				D5BF215029C706F6006E736F /* NetworkManager.swift in Sources */,
 				D504CDEA29C71ADB00EE10AE /* SearchTextField.swift in Sources */,
+				D532D03329CB8D7700ADF090 /* GenreCollectionViewCell.swift in Sources */,
 				D52F6CA129B324E500679055 /* UIPageControl+Extension.swift in Sources */,
 				D504CDE329C710D600EE10AE /* HomeViewController.swift in Sources */,
 				D57E02D929BB4AEC00A87003 /* TextField.swift in Sources */,
@@ -584,6 +630,7 @@
 				D5FD102729B7A2780077B276 /* LoginViewController.swift in Sources */,
 				D5F1292729C89E5500FD7B3B /* DetailTableViewCell.swift in Sources */,
 				D513978F29AE42400055D99C /* AppDelegate.swift in Sources */,
+				D5EFA01D29CC5691004CB1DD /* SimilarCollectionViewCell.swift in Sources */,
 				D51F60D629C779DF006C1E05 /* DetailHelper.swift in Sources */,
 				D5423A1129C345F0008DDB7D /* CreatePasswordViewController.swift in Sources */,
 				D50B79DA29C06A30003794C6 /* PopularCollectionViewCell.swift in Sources */,
@@ -593,6 +640,7 @@
 				D51F60DA29C77B5B006C1E05 /* MovieDetail.swift in Sources */,
 				D513979129AE42400055D99C /* SceneDelegate.swift in Sources */,
 				D595907729B2A25200DE383E /* OnboardingViewController.swift in Sources */,
+				D532D03629CB9C5100ADF090 /* Credits.swift in Sources */,
 				D504CDE729C713D300EE10AE /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -823,6 +871,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D50FD3B229E0C241004BA14F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D50FD3B529E0C26C004BA14F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D50FD3B329E0C241004BA14F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D50FD3B229E0C241004BA14F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		D50FD3B629E0C26C004BA14F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D50FD3B529E0C26C004BA14F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D513978329AE42400055D99C /* Project object */;
 }

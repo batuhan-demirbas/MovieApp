@@ -26,4 +26,16 @@ class DetailManager: DetailManagerProtocol {
         }
     }
     
+    func getCredits(movieId: Int, complete: @escaping((Credits?, Error?)->())) {
+        NetworkManager.shared.request(type: Credits.self, url: DetailEndpoint.detail.creditsPath(movieId: movieId), method: .get) { response in
+            switch response {
+            case .success(let data):
+                print(response)
+                complete(data, nil)
+            case.failure(let error):
+                complete(nil, error)
+            }
+        }
+    }
+    
 }
